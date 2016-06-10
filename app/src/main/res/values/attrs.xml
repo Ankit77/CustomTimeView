@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomDateandTimeView">
+        <attr name="dateformat" format="string" />
+        <attr name="timeformat" format="integer" />
+        <attr name="show_border" format="boolean" />
+        <attr name="border_color" format="color" />
+        <attr name="border_radius" format="dimension" />
+        <attr name="type" format="integer"/>
+    </declare-styleable>
+    <declare-styleable name="FragmentWebView">
+        <attr name="url" format="string"/>
+        <attr name="showProgress" format="boolean"/>
+        <attr name="isJaveScriptEnabled" format="boolean"/>
+        <attr name="setWebViewClient" format="boolean"/>
+        <attr name="setBuiltInZoomControls" format="boolean"/>
+        <attr name="setDisplayZoomControls" format="boolean"/>
+        <attr name="setLoadWithOverviewMode" format="boolean"/>
+        <attr name="setUseWideViewPort" format="boolean"/>
+        <attr name="setChromiumTab" format="boolean"/>
+
+    </declare-styleable>
+
+</resources>
